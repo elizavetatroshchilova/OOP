@@ -1,9 +1,10 @@
-package HomeWork_3;
+package Homework_3;
 /* 
-1. Создать сет компонентов, и сделать так, чтобы в нем не было 2 одинаковых. 
-(Специально создать два одинаковых компонента в Main и попытаться их добавить в сет)
-2. * Set<Component> result = new HashSet<>(components); (подсказка переопределить методы equals и hashCode).
-3. Переписать compareTo так, чтобы если power лекарств равны, сравнение шло еще и по названиям компонентов лекарства
+Сделать так, чтобы после добавления нескольких одинаковых объектов Pharmacy, в сете result были только уникальные.
+
+Set<Pharmacy> result = new HashSet<>();
+System.out.println(result.size()); //
+Переписать compareTo так, чтобы если power лекарств равны, сравнение шло еще и по названиям компонентов лекарства
 */
 import java.util.ArrayList;
 import java.util.Collections;
